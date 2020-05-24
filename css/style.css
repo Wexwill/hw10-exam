@@ -53,13 +53,50 @@ header .header_top .basket .basket_icon {
     background-position: center;
 }
 
+    /* Header bot */
+header .header_bot {
+    display: flex;
+    justify-content: space-between;
+}
+header .header_bot .header_bot_text {
+    width: 380px;
+}
+header .header_bot .header_bot_text h2 {
+    margin-top: 60px;
+    font-size: 55px;
+    font-weight: 600;
+}
+header .header_bot .header_bot_text p {
+    margin-top: 30px;
+    color: #929698;
+    font-size: 16px;
+}
+header .header_bot .header_bot_text button {
+    margin-top: 50px;
+    width: 240px;
+    height: 50px;
+    border: 0;
+    background-color: #fb565a;
+    color: #fff;
+    font-size: 18px;
+}
+.header_bot_img {
+    background-image: url(../images/slide1.png);
+    width: 698px;
+    height: 413px;
+}
+
 .advantages {
     margin-top: 80px;
 }
 .advantages .container {
+    
     max-width: 1100px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #eeeeee;
 }
 .advantages .advantages_wrapper {
+    margin-left: -30px; 
     display: flex;
     justify-content: space-between;
 }
@@ -80,4 +117,30 @@ header .header_top .basket .basket_icon {
     background-image: url(../images/board.png);
     width: 300;
     height: 146px;
+}
+.advantages .advantages_item h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.advantages .advantages_item p {
+    margin-top: 28px;
+    width: 280px;
+}
+.advantages .advantages_item button {
+    width: 160px;
+    height: 50px;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 40px;
+}
+.advantages .advantages_item .advantages_button_red {
+    background-color: #fb565a;
+}
+.advantages .advantages_item .advantages_button_green {
+    background-color: #00ca74;
+}
+.advantages .advantages_item .advantages_button_yellow {
+    background-color: #efc84a;
 }

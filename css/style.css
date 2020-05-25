@@ -229,3 +229,40 @@ header .header_bot .header_bot_text button {
     font-size: 16px;
     margin-top: 20px;
 }
+
+    /* Sponsor */
+
+.sponsor .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 2px solid #eeeeee;
+}
+.sponsor .sponsor_item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-right: 2px solid #eeeeee;
+    padding-right: 50px;
+}
+.sponsor_academy {
+    width: 199px;
+    height: 68px;
+    background-image: url(../images/logo1.png);
+}
+.sponsor_borodinski {
+    width: 209px;
+    height: 87px;
+    background-image: url(../images/logo2.png);
+}
+.sponsor_pink {
+    width: 185px;
+    height: 52px;
+    background-image: url(../images/logo3.png);
+}
+.sponsor_mishka {
+    width: 173px;
+    height: 84px;
+    background-image: url(../images/logo4.png);
+}

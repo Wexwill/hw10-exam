@@ -266,3 +266,81 @@ header .header_bot .header_bot_text button {
     height: 84px;
     background-image: url(../images/logo4.png);
 }
+
+    /* Contacts */
+
+.contacts {
+    margin: 80px 0;
+    position: relative;
+}
+.contacts .contacts_window {
+    position: absolute;
+    top: 55px;
+    z-index: 1;
+    width: 320px;
+    height: 310px;
+    background-color: #fff;
+}
+.contacts .contacts_window .contacts_window_wrapper {
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.contacts .contacts_window h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contacts .contacts_window p {
+    margin-top: 30px;
+    width: 210px;
+    color: #707070;
+    font-size: 16px;
+}
+.contacts .contacts_window .contacts_phone {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #707070;
+    font-size: 16px;
+}
+.contacts .contacts_window button {
+    width: 220px;
+    height: 50px;
+    border: 0;
+    background-color: #fb565a;
+    color: #fff;
+    font-size: 18px;
+}
+
+    /* Footer */
+.footer .footer_wraper {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.footer .vk,
+.footer .fb,
+.footer .inst {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.footer .vk {
+    background-image: url(../images/vk_icon.png);
+}
+.footer .fb {
+    background-image: url(../images/fb_icon.png);
+}
+.footer .inst {
+    background-image: url(../images/insta_icon.png);
+}
+.footer .footer_discount h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

@@ -107,17 +107,17 @@ header .header_bot .header_bot_text button {
 }
 .advantages .advantages_item .laptop {
     background-image: url(../images/laptop.png);
-    width: 300;
+    width: 300px;
     height: 146px;
 }
 .advantages .advantages_item .mobile {
     background-image: url(../images/mobile.png);
-    width: 300;
+    width: 300px;
     height: 146px;
 }
 .advantages .advantages_item .board {
     background-image: url(../images/board.png);
-    width: 300;
+    width: 300px;
     height: 146px;
 }
 .advantages .advantages_item h3 {

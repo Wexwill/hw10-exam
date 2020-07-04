@@ -44,18 +44,25 @@
 }
 
 @media (max-width: 768px) {
-
-    header .header_item {
+/* 
+    header .header_bot_wraper {
         justify-content: center;
         padding-bottom: 30px;
-    }
-    .header_bot_img {
+    } */
+    .header_bot_img1,
+    .header_bot_img2,
+    .header_bot_img3 {
         display: none;
+    }
+    header .header_item {
+        min-width: 100%;
+        justify-content: center;
     }
     header .header_bot .header_bot_text {
         text-align: center;
     }
     header .header_bot .header_bot_text h2{
+        width: 100%;
         margin-top: 30px;
     }
 

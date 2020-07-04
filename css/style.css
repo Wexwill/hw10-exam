@@ -80,13 +80,25 @@ header .header_top .basket .basket_icon {
 }
 
     /* Header bot */
-
 header .header_bot {
+    overflow: hidden;
+}
+header .header_bot_wraper {
+    display: flex;
+    position: relative;
+    transition: all ease 1s;
+    left: 0;
+}
+header .header_item {
     display: flex;
     justify-content: space-between;
+    min-width: 1160px;
 }
 header .header_bot .header_bot_text {
     width: 380px;
+}
+header .header_bot h2 {
+    width: 520px;
 }
 header .header_bot .header_bot_text h2 {
     margin-top: 60px;
@@ -107,10 +119,41 @@ header .header_bot .header_bot_text button {
     color: #fff;
     font-size: 18px;
 }
-.header_bot_img {
+.header_bot_img1 {
     background-image: url(../images/slide1.png);
     width: 698px;
     height: 413px;
+}
+.header_bot_img2 {
+    background-image: url(../images/slide2.png);
+    width: 663px;
+    height: 430px;
+}
+.header_bot_img3 {
+    background-image: url(../images/slide3.png);
+    width: 759px;
+    height: 411px;
+}
+
+header .header_bot_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .header_bot_btn button {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    box-shadow: 0 0 10px 1px #929292;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: ease;
+}
+header .header_bot_btn button:hover {
+    box-shadow: 0 0 10px 1px #fb565a;
+}
+header .header_bot_btn button:active {
+    background-color: #fb565a;
 }
 
     /* Advantages */

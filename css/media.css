@@ -45,7 +45,7 @@
 
 @media (max-width: 768px) {
 
-    header .header_bot {
+    header .header_item {
         justify-content: center;
         padding-bottom: 30px;
     }

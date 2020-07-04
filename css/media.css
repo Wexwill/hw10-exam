@@ -44,11 +44,7 @@
 }
 
 @media (max-width: 768px) {
-/* 
-    header .header_bot_wraper {
-        justify-content: center;
-        padding-bottom: 30px;
-    } */
+
     .header_bot_img1,
     .header_bot_img2,
     .header_bot_img3 {

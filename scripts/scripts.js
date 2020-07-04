@@ -4,14 +4,12 @@ let btnLeft = document.querySelector('.left'),
     left = 0;
 
 btnRight.addEventListener('click', function(event) {
-    // left = left - 1160;
     if (left <= -2320 ) left = 0;
     else left = left - 1160;
     headerBot.style.left = left +'px';
 
 })
 btnLeft.addEventListener('click', function(event) {
-    // left = left + 1160;
     if (left >= 0) left = -2320;
     else left = left + 1160;
     headerBot.style.left = left +'px';
